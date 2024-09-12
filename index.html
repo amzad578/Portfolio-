@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/eace8efe19.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Amzad12.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h3>Hi</h3>
+                <h1>I'm <span>Amzad Hussain</span> <br></h1>
+                <h3>I'm a <span class="typing">Web Development</span></h3>
+                <p>I am very passionate about improving my coding skills & developing websites. I build Websites <br> using Django. Working for myself to improve my skills.</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/amzad578"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/amzadhussain812"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/md.amzad.1/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/amzad-hussain1/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/10hoNSoIjN6IRDLAJP4VvrY1PGJk0KCS_/view?usp=sharing" class="btn btn2">Downlord CV</a>
+        </div>
+    </div>
+<!-- =======About======= -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Untitled Project.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Full-Stack developer based in Noida, India. I am an Master of Computer Application Postgraduate Future Group of Institutions bareilly. I am very passionate about improving my coding skills & developing websites. I build Websites using Django. Working for myself to improve my skills. Love to build Full-Stack clones.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FRONT-END-DEV</span><br>HTML / CSS / JS</li>
+                            <li><span>BACK-END-DEV</span><br>Python / Django</li>
+                            <li><span>DATABASES</span><br>MYSQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10/2022 – 08/2024</span><br>MCA / 7.36 CGPA
+                            </li>
+                            <li><span>05/2017 – 01/2021 </span><br>BSC Physics / Percentage, 61%</li>
+                            <li><span>04/2015 – 03/2017</span><br>12th board / Percentage, 56%</li>
+                            <li><span>03/2014 – 03/2015 </span><br>10th / 9.0 CGPA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =======Services========= -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design involves creating the visual appearance, layout, and usability of a website. It encompasses a range of skills and disciplines aimed at producing functional and aesthetically pleasing web experiences. While the focus of web design is primarily on the client side (the part that users interact with), it plays a critical role in how users perceive and interact with a website.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Server-Side Logic</h2>
+                    <p>In Django, a high-level Python web framework, server-side logic refers to the backend code that handles HTTP requests, interacts with databases, and renders responses to the client. Django follows the Model-View-Template (MVT) architecture, which helps in organizing the server-side logic. Here's how server-side logic is handled in Django:</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python developer</h2>
+                    <p>As a Python developer, when designing a database for services, you'd likely want to define models in a way that makes them easily manageable and scalable. Using Django ORM or SQLAlchemy (if you prefer more manual control), you can create a service-related database.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- ===========portfolio============ -->
+
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Screenshot 2024-09-11 185918.png">
+                    <div class="layer">
+                        <h3>Ecommerce Website</h3>
+                        <p>Ecommerce website using Django involves building a system that handles products, user accounts, shopping carts, orders, and payments.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot2.png">
+                    <div class="layer">
+                        <h3>Twite</h3>
+                        <p> simple Twitter-like website in Django, you need to implement features such as user authentication, posting tweets (short messages)</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot3.png">
+                    <div class="layer">
+                        <h3>Designing the UI</h3>
+                        <p>Designing the UI for an eCommerce website involves crafting an intuitive, user-friendly interface that promotes smooth navigation, effective product browsing, and an easy checkout experience. Here’s a general breakdown of the key UI components for an eCommerce website</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+     <!-- =========Contact=========== -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fas fa-paper-plane"></i> amzadhussain813@gmail.com</p>
+                    <p> <i class="fas fa-phone-square-alt"></i> +91-6201649407</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/amzad578"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/amzadhussain812"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/md.amzad.1/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/amzad-hussain1/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/10hoNSoIjN6IRDLAJP4VvrY1PGJk0KCS_/view?usp=sharing" class="btn btn2">Downlord CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Amzad Hussain. <i class="fas fa-heart"></i> All rights reserved.</p>
+        </div>
+      </div>
+</body>
+<script src="main.js"></script>
+<script src="script.js"></script>
+</html>
